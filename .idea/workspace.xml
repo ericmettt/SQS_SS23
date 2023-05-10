@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86ca7321-a571-45d7-9811-57ec32c50cc8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fruitapp" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fruitapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fruitapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fruitapp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/FruitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/FruitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/FruitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/FruitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/FruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/FruitService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2O9FG81Y8wcR0SXWjQlJk2v5Sml" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3b26194b13edb91ea719ef5cbee8d5bd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.fruit.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FruitApplication (1)">
+    <configuration name="FruitApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Fruit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.FruitApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FruitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Fruit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.fruit.FruitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.FruitApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86ca7321-a571-45d7-9811-57ec32c50cc8" name="Changes" comment="" />
+      <created>1680964793598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680964793598</updated>
+      <workItem from="1680964794628" duration="9804000" />
+      <workItem from="1681023789087" duration="576000" />
+      <workItem from="1681043153012" duration="673000" />
+      <workItem from="1681139872660" duration="11106000" />
+      <workItem from="1681225067606" duration="624000" />
+      <workItem from="1681376716724" duration="1344000" />
+      <workItem from="1681467021238" duration="326000" />
+      <workItem from="1681553795692" duration="5409000" />
+      <workItem from="1681638104266" duration="4180000" />
+      <workItem from="1681721648602" duration="1804000" />
+      <workItem from="1681999811948" duration="2830000" />
+      <workItem from="1682165645141" duration="3511000" />
+      <workItem from="1682253292151" duration="9559000" />
+      <workItem from="1683403615675" duration="1832000" />
+      <workItem from="1683460455699" duration="1496000" />
+      <workItem from="1683539054343" duration="5819000" />
+      <workItem from="1683701686962" duration="1175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
