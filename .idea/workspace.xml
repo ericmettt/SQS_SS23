@@ -5,25 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2617b5f6-3f12-4c16-8f84-a6e94491847f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/ArchitectureTest/ArchitectureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/classes/com/example/FruitApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/main/example/FruitApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/classes/com/example/controller/FruitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/main/example/controller/FruitController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/classes/com/example/model/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/main/example/model/Fruit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/classes/com/example/repository/FruitRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/main/example/repository/FruitRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/classes/com/example/service/FruitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/main/example/service/FruitService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fruitapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fruitapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fruitapp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2ParXU6bBdYhI4GKoBmbAjTMVKm" />
   <component name="ProjectViewState">
@@ -39,20 +57,85 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Eric/IdeaProjects/Fruit",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "C:/Users/Eric/IdeaProjects/Fruit/Java",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="FruitApplication" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.FruitApplication" />
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.ArchitectureTest.testLayeredArchitecture">
+    <configuration name="java" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Java/src/main/java/fruitnew/FruitnewApplication.java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArchitectureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.ArchitectureTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew.ArchitectureTest" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.ArchitectureTest.ArchitectureTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArchitectureTest.testLayeredArchitecture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.ArchitectureTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew.ArchitectureTest" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.ArchitectureTest.ArchitectureTest" />
+      <option name="METHOD_NAME" value="testLayeredArchitecture" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FruitnewApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fruitnew.FruitnewApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,6 +143,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.java" />
+      <item itemvalue="JUnit.ArchitectureTest" />
+      <item itemvalue="JUnit.ArchitectureTest.testLayeredArchitecture" />
+      <item itemvalue="Spring Boot.FruitnewApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArchitectureTest.testLayeredArchitecture" />
+        <item itemvalue="JUnit.ArchitectureTest" />
+        <item itemvalue="Spring Boot.FruitnewApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,10 +166,15 @@
       <option name="presentableId" value="Default" />
       <updated>1683706075821</updated>
       <workItem from="1683706077090" duration="2743000" />
+      <workItem from="1684246089761" duration="5381000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
