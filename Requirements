@@ -1,0 +1,31 @@
+Requirements
+
+Springboot:
+
+Junit,Mockito weil Java
+
+3 Schichten Architkur Entscheidung Doku
+Archiktur Tests -> ArchUnit!!
+IntegrationsTest-> Rest Assured, TestContainery
+3rd Party API -> WireMock,Hoverfly
+End 2 End UI Tests -> Cypress + Mocha | Selenium + Juni | Cucumber (BDD)
+cucumber
+
+Test Setup Architektur -> Ci Based , In-Cluster, Dedicated
+
+Frameworks, k6 lasttest, Jmeter
+
+Security Tests 
+Statische Analyse -> DependaBot, Sonarcloud/cube, owasp dependency check
+
+Infrastructure as Code Security -> Terraform, Dockertily,k8s
+
+ZED ATTACK PROXY
+
+testcoverage jackoco
+
+mehr als ein 1 Unit test
+
+Abgabe Woche vor Prüfungszeitraum
+
+Datenbank zum Testen in Container oder in Doku erwähen dass lokale Installation notwendig ist
