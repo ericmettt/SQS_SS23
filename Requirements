@@ -2,10 +2,10 @@ Requirements
 
 Springboot:
 
-Junit,Mockito weil Java
+Junit,Mockito weil Java X
 
 3 Schichten Architkur Entscheidung Doku
-Archiktur Tests -> ArchUnit!!
+Archiktur Tests -> ArchUnit!! X
 IntegrationsTest-> Rest Assured, TestContainery
 3rd Party API -> WireMock,Hoverfly
 End 2 End UI Tests -> Cypress + Mocha | Selenium + Juni | Cucumber (BDD)
