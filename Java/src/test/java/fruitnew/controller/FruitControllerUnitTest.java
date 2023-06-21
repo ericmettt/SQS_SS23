@@ -39,12 +39,12 @@ class FruitControllerUnitTest {
     }
     @Test
     public void getFruitInfoTest(){
-        FruitService fruitServicee = mock(FruitService.class);
-        when(fruitServicee.getFruitInformation("Apple")).thenReturn(new Fruit("Apple"));
+        FruitService fruitService = mock(FruitService.class);
+        when(fruitService.getFruitInformation("Apple")).thenReturn(new Fruit("Apple"));
 
         Fruit apple = new Fruit("Apple");
 
-        assertEquals(apple.getName(),fruitServicee.getFruitInformation("Apple").getName());
+        assertEquals(apple.getName(),fruitService.getFruitInformation("Apple").getName());
     }
 
 }

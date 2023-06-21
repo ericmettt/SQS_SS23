@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2617b5f6-3f12-4c16-8f84-a6e94491847f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/ArchitectureTest/ArchitectureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/IntegrationsTest/Integrationstest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/controller/FruitControllerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/controller/FruitControllerUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fruitapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fruitapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fruitapp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/src/App.js" afterDir="false" />
@@ -67,13 +62,14 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "Errors",
+    "spring.configuration.checksum": "c77a9f8cbeaf7e99a573b2f8a9b27f7e",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.ArchitectureTest.testLayeredArchitecture">
+  <component name="RunManager" selected="JUnit.Integrationstest">
     <configuration name="java" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -88,32 +84,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArchitectureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FruitControllerUnitTest.getFruitInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruitnew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fruitnew.ArchitectureTest.*" />
+          <option name="PATTERN" value="fruitnew.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.ArchitectureTest" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.ArchitectureTest.ArchitectureTest" />
+      <option name="PACKAGE_NAME" value="fruitnew.controller" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.controller.FruitControllerUnitTest" />
+      <option name="METHOD_NAME" value="getFruitInfoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Integrationstest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.IntegrationsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew.IntegrationsTest" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.IntegrationsTest.Integrationstest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArchitectureTest.testLayeredArchitecture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Integrationstest.testCreateFruit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruitnew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fruitnew.ArchitectureTest.*" />
+          <option name="PATTERN" value="fruitnew.IntegrationsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.ArchitectureTest" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.ArchitectureTest.ArchitectureTest" />
-      <option name="METHOD_NAME" value="testLayeredArchitecture" />
+      <option name="PACKAGE_NAME" value="fruitnew.IntegrationsTest" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.IntegrationsTest.Integrationstest" />
+      <option name="METHOD_NAME" value="testCreateFruit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Integrationstest.testGetUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.IntegrationsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew.IntegrationsTest" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.IntegrationsTest.Integrationstest" />
+      <option name="METHOD_NAME" value="testGetUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,15 +173,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.java" />
-      <item itemvalue="JUnit.ArchitectureTest" />
-      <item itemvalue="JUnit.ArchitectureTest.testLayeredArchitecture" />
+      <item itemvalue="JUnit.FruitControllerUnitTest.getFruitInfoTest" />
+      <item itemvalue="JUnit.Integrationstest" />
+      <item itemvalue="JUnit.Integrationstest.testCreateFruit" />
+      <item itemvalue="JUnit.Integrationstest.testGetUser" />
       <item itemvalue="Spring Boot.FruitnewApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArchitectureTest.testLayeredArchitecture" />
-        <item itemvalue="JUnit.ArchitectureTest" />
+        <item itemvalue="JUnit.Integrationstest" />
+        <item itemvalue="JUnit.Integrationstest.testGetUser" />
+        <item itemvalue="JUnit.FruitControllerUnitTest.getFruitInfoTest" />
         <item itemvalue="Spring Boot.FruitnewApplication" />
+        <item itemvalue="JUnit.Integrationstest.testCreateFruit" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +198,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683706075821</updated>
       <workItem from="1683706077090" duration="2743000" />
-      <workItem from="1684246089761" duration="5381000" />
+      <workItem from="1684246089761" duration="6893000" />
+      <workItem from="1687357243044" duration="4820000" />
     </task>
     <servers />
   </component>
