@@ -1,4 +1,4 @@
-package fruitnew.ArchitectureTest;
+package fruitnew.architecturetest;
 import com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
 import com.tngtech.archunit.core.importer.ImportOption;

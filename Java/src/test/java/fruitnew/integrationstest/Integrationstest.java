@@ -1,4 +1,4 @@
-package fruitnew.IntegrationsTest;
+package fruitnew.integrationstest;
 import org.junit.jupiter.api.Test;
 import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;
