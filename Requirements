@@ -8,7 +8,7 @@ Junit,Mockito weil Java X
 Archiktur Tests -> ArchUnit!! X
 IntegrationsTest-> Rest Assured, TestContainery X Rest assured
 3rd Party API -> WireMock,Hoverfly X Wiremock
-End 2 End UI Tests -> Cypress + Mocha | Selenium + Juni | Cucumber (BDD)
+End 2 End UI Tests -> Cypress + Mocha | Selenium + Juni | Cucumber (BDD)                X Selenium +Junit
 cucumber
 
 Test Setup Architektur -> Ci Based , In-Cluster, Dedicated
