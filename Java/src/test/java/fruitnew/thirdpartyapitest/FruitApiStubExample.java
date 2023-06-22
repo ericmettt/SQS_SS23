@@ -18,11 +18,13 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 import java.io.IOException;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
+import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig;
+
 //Test https://fruityvice.com/api/fruit/apple
 public class FruitApiStubExample {
 
-
-    WireMockServer wireMockServer = new WireMockServer();
+    int wireMockPort = 7777;
+    WireMockServer wireMockServer = new WireMockServer(wireMockConfig().port(wireMockPort));
     private static WebTestClient webTestClient;
     @BeforeEach
     public void startWiremock(){
@@ -42,31 +44,11 @@ public class FruitApiStubExample {
                 .build();
 
     }
-
-
-
     @After
     public void stopWiremock(){
         // Stop the WireMock server
         wireMockServer.stop();
     }
-    @Test
-    public void test() throws IOException {
-        // Create a WireMock stub for the Fruit API
-        // Perform your tests or make API requests to the stubbed Fruit API
-            HttpClient httpClient = HttpClientBuilder.create().build();
-            // Make a request to the stubbed Fruit API
-            HttpGet request = new HttpGet("http://localhost:8080/api/fruit/apple");
-            HttpResponse response = httpClient.execute(request);
-
-            // Get the response status code
-            int statusCode = response.getStatusLine().getStatusCode();
-            System.out.println("Status Code: " + statusCode);
-
-            // Get the response body
-            String responseBody = EntityUtils.toString(response.getEntity());
-            System.out.println("Response Body: " + responseBody);
-        }
     @Test
     public void testFruitApi() {
         webTestClient.get().uri("/api/fruit/apple")
