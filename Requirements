@@ -7,7 +7,7 @@ Junit,Mockito weil Java X
 3 Schichten Architkur Entscheidung Doku
 Archiktur Tests -> ArchUnit!! X
 IntegrationsTest-> Rest Assured, TestContainery X Rest assured
-3rd Party API -> WireMock,Hoverfly
+3rd Party API -> WireMock,Hoverfly X Wiremock
 End 2 End UI Tests -> Cypress + Mocha | Selenium + Juni | Cucumber (BDD)
 cucumber
 
