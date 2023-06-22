@@ -29,7 +29,7 @@ public class FrontendTest {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Eric\\Downloads\\chromedriver_win32\\chromedriver.exe");
     }
         @Test
-        public void testvaildTextfield() throws InterruptedException, SQLException {
+        public void testvalidTextfield() throws InterruptedException, SQLException {
             // Optional. If not specified, WebDriver searches the PATH for chromedriver.
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--remote-allow-origins=*");
@@ -72,7 +72,7 @@ public class FrontendTest {
         }
 
     @Test
-    public void testinvaildTextfield() throws InterruptedException, SQLException {
+    public void testinvalidTextfield() throws InterruptedException, SQLException {
         // Optional. If not specified, WebDriver searches the PATH for chromedriver.
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
