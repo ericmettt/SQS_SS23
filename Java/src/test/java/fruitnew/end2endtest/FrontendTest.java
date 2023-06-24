@@ -8,21 +8,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.*;
 
 import org.openqa.selenium.chrome.*;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
+import java.util.Properties;
+
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.env.Environment;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.junit.Assert.*;
-
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class FrontendTest {
-
-    @Autowired
-    private Environment environment;
 
     @Before
     public void setupWebdriver(){
@@ -46,7 +48,14 @@ public class FrontendTest {
             submitButton.click();
             // Close the browser
             driver.quit();
-            Connection connection = DriverManager.getConnection(environment.getProperty("spring.datasource.url"), environment.getProperty("spring.datasource.username"), environment.getProperty("spring.datasource.password"));
+
+            Properties properties = new Properties();
+            try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("application-end2end.properties")) {
+                properties.load(inputStream);
+            } catch (IOException e) {
+                // Handle the exception
+            }
+            Connection connection = DriverManager.getConnection(properties.getProperty("spring.datasource.url"), properties.getProperty("spring.datasource.username"), properties.getProperty("spring.datasource.password"));
             try {
                 // Execute an SQL query to retrieve the inserted data from the database
                 String sql = "SELECT * FROM fruit_db WHERE name = 'Apple'";
@@ -78,6 +87,13 @@ public class FrontendTest {
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
 
+        Properties properties = new Properties();
+        try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("application-end2end.properties")) {
+            properties.load(inputStream);
+        } catch (IOException e) {
+            // Handle the exception
+        }
+
         driver.get("http://localhost:3000/");
         Thread.sleep(2000);
         WebElement textbox = driver.findElement(By.id("outlined-basic"));
@@ -89,7 +105,7 @@ public class FrontendTest {
         submitButton.click();
         // Close the browser
         driver.quit();
-        Connection connection = DriverManager.getConnection(environment.getProperty("spring.datasource.url"), environment.getProperty("spring.datasource.username"), environment.getProperty("spring.datasource.password"));
+        Connection connection = DriverManager.getConnection(properties.getProperty("spring.datasource.url"), properties.getProperty("spring.datasource.username"), properties.getProperty("spring.datasource.password"));
         try {
             // Execute an SQL query to retrieve the inserted data from the database
             String sql = "SELECT * FROM fruit_db WHERE name = 'Bread'";
