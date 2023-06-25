@@ -43,33 +43,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_opened_file_path": "C:/Users/Eric/IdeaProjects/Fruit/Java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors",
-    "spring.configuration.checksum": "c77a9f8cbeaf7e99a573b2f8a9b27f7e",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Eric/IdeaProjects/Fruit/Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c77a9f8cbeaf7e99a573b2f8a9b27f7e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.Thirdpartyapitest">
+  <component name="RunManager" selected="JUnit.fruitnew in Fruitnew">
     <configuration name="Thirdpartyapitest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fruitnew.thirdPartyApiTest.Thirdpartyapitest" />
       <module name="Fruitnew" />
@@ -93,21 +93,6 @@
           <option name="ENABLED" value="false" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Integrationstest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fruitnew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fruitnew.IntegrationsTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.IntegrationsTest" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.IntegrationsTest.Integrationstest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,13 +144,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
+    <configuration name="fruitnew in Fruitnew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,7 +168,7 @@
     <list>
       <item itemvalue="Application.java" />
       <item itemvalue="Application.Thirdpartyapitest" />
-      <item itemvalue="JUnit.Integrationstest" />
+      <item itemvalue="JUnit.fruitnew in Fruitnew" />
       <item itemvalue="JUnit.Thirdpartyapitest" />
       <item itemvalue="JUnit.Thirdpartyapitest.example" />
       <item itemvalue="JUnit.Thirdpartyapitest.testCreateFruit" />
@@ -188,11 +176,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.fruitnew in Fruitnew" />
         <item itemvalue="JUnit.Thirdpartyapitest" />
         <item itemvalue="JUnit.Thirdpartyapitest.testCreateFruit" />
         <item itemvalue="JUnit.Thirdpartyapitest.example" />
         <item itemvalue="Application.Thirdpartyapitest" />
-        <item itemvalue="JUnit.Integrationstest" />
       </list>
     </recent_temporary>
   </component>
