@@ -13,10 +13,10 @@ cucumber
 
 Test Setup Architektur -> Ci Based , In-Cluster, Dedicated
 
-Frameworks, k6 lasttest, Jmeter
+Frameworks, k6 lasttest, Jmeter X K6
 
 Security Tests 
-Statische Analyse -> DependaBot, Sonarcloud/cube, owasp dependency check
+Statische Analyse -> DependaBot, Sonarcloud/cube, owasp dependency check  XSonarcloud
 
 Infrastructure as Code Security -> Terraform, Dockertily,k8s
 
