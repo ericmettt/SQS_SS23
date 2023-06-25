@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2617b5f6-3f12-4c16-8f84-a6e94491847f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/thirdPartyApiTest/Thirdpartyapitest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitapp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/fruitapp/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/main/java/fruitnew/controller/FruitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/main/java/fruitnew/controller/FruitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/main/java/fruitnew/service/FruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/main/java/fruitnew/service/FruitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/architecturetest/ArchitectureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/architecturetest/ArchitectureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/controller/FruitControllerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/controller/FruitControllerUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/controller/FruitRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/controller/FruitRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/end2endtest/FrontendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/end2endtest/FrontendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/integrationstest/Integrationstest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/integrationstest/IntegrationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/thirdpartyapitest/FruitApiStubExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/thirdpartyapitest/ThirdPartyApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,20 +71,7 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.fruitnew in Fruitnew">
-    <configuration name="Thirdpartyapitest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fruitnew.thirdPartyApiTest.Thirdpartyapitest" />
-      <module name="Fruitnew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fruitnew.thirdPartyApiTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in Fruitnew">
     <configuration name="java" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -93,6 +82,14 @@
           <option name="ENABLED" value="false" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Fruitnew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,7 +164,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.java" />
-      <item itemvalue="Application.Thirdpartyapitest" />
+      <item itemvalue="JUnit.All in Fruitnew" />
       <item itemvalue="JUnit.fruitnew in Fruitnew" />
       <item itemvalue="JUnit.Thirdpartyapitest" />
       <item itemvalue="JUnit.Thirdpartyapitest.example" />
@@ -176,11 +173,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Fruitnew" />
         <item itemvalue="JUnit.fruitnew in Fruitnew" />
         <item itemvalue="JUnit.Thirdpartyapitest" />
         <item itemvalue="JUnit.Thirdpartyapitest.testCreateFruit" />
         <item itemvalue="JUnit.Thirdpartyapitest.example" />
-        <item itemvalue="Application.Thirdpartyapitest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +194,7 @@
       <workItem from="1687357243044" duration="14074000" />
       <workItem from="1687416190088" duration="669000" />
       <workItem from="1687419457284" duration="251000" />
+      <workItem from="1687702006185" duration="1949000" />
     </task>
     <servers />
   </component>

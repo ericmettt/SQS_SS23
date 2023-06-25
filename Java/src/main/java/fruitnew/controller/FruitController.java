@@ -14,8 +14,7 @@ public class FruitController {
     @Autowired
     private FruitService fruitService;
 
-    public FruitController() {
-    }
+
 
     @GetMapping({"/"})
     public Fruit getFruitInfo() {

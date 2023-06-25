@@ -4,10 +4,10 @@ import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 //Integration Test via Rest Assured
-public class Integrationstest {
+class IntegrationsTest {
 
     @Test
-    public void testCreateFruit() {
+    void testCreateFruit() {
         // Set base URL and port
         RestAssured.baseURI = "http://localhost";
         RestAssured.port = 8080;
@@ -29,7 +29,7 @@ public class Integrationstest {
     }
 
     @Test
-    public void testGetUser() {
+    void testGetUser() {
         // Set base URL and port
         RestAssured.baseURI = "http://localhost";
         RestAssured.port = 8080;

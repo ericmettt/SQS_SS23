@@ -38,7 +38,6 @@ public class FrontendTest {
             WebDriver driver = new ChromeDriver(options);
 
             driver.get("http://localhost:3000/");
-            Thread.sleep(2000);
             WebElement textbox = driver.findElement(By.id("outlined-basic"));
             // Enter the text "fruit" into the textbox
             textbox.sendKeys("Apple");
@@ -95,7 +94,6 @@ public class FrontendTest {
         }
 
         driver.get("http://localhost:3000/");
-        Thread.sleep(2000);
         WebElement textbox = driver.findElement(By.id("outlined-basic"));
         // Enter the text "fruit" into the textbox
         textbox.sendKeys("Bread");

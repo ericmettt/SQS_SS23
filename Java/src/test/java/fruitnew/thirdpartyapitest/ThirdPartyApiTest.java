@@ -2,6 +2,7 @@ package fruitnew.thirdpartyapitest;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import org.junit.After;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.MediaType;
@@ -13,7 +14,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig;
 
 //Test https://fruityvice.com/api/fruit/apple
-public class FruitApiStubExample {
+class ThirdPartyApiTest {
 
     int wireMockPort = 7777;
     WireMockServer wireMockServer = new WireMockServer(wireMockConfig().port(wireMockPort));
@@ -36,13 +37,13 @@ public class FruitApiStubExample {
                 .build();
 
     }
-    @After
-    public void stopWiremock(){
+    @AfterEach
+    void stopWiremock(){
         // Stop the WireMock server
         wireMockServer.stop();
     }
     @Test
-    public void testFruitApi() {
+    void testFruitApi() {
         webTestClient.get().uri("/api/fruit/apple")
                 .exchange()
                 .expectStatus().isOk()
