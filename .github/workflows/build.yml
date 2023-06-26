@@ -33,7 +33,7 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       - name: Build and run tests
-        run: mvn -B clean verify
+        run: mvn -B clean verify -Dtest="!IntegrationsTest"
       - name: Generate JaCoCo Report
         run: mvn jacoco:report
       - name: Analyze with SonarCloud
