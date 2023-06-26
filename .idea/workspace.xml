@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2617b5f6-3f12-4c16-8f84-a6e94491847f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/main/java/fruitnew/controller/FruitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/main/java/fruitnew/controller/FruitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/main/java/fruitnew/service/FruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/main/java/fruitnew/service/FruitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/architecturetest/ArchitectureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/architecturetest/ArchitectureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/controller/FruitControllerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/controller/FruitControllerUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/controller/FruitRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/controller/FruitRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/end2endtest/FrontendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/end2endtest/FrontendTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/integrationstest/Integrationstest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/integrationstest/IntegrationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/test/java/fruitnew/thirdpartyapitest/FruitApiStubExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/test/java/fruitnew/thirdpartyapitest/ThirdPartyApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +188,7 @@
       <workItem from="1687416190088" duration="669000" />
       <workItem from="1687419457284" duration="251000" />
       <workItem from="1687702006185" duration="1949000" />
+      <workItem from="1687790854336" duration="1118000" />
     </task>
     <servers />
   </component>
