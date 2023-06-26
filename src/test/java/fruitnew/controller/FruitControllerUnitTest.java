@@ -26,7 +26,7 @@ class FruitControllerUnitTest {
     private FruitService service;
 
     @Test
-    public void addFruitTest(){
+    void addFruitTest(){
 
         Mono<Fruit> fruitMono = Mono.just(new Fruit("Apple"));
         //TODO WTF IS BLOCK
@@ -38,7 +38,7 @@ class FruitControllerUnitTest {
                 .expectStatus().isOk();
     }
     @Test
-    public void getFruitInfoTest(){
+    void getFruitInfoTest(){
         FruitService fruitService = mock(FruitService.class);
         when(fruitService.getFruitInformation("Apple")).thenReturn(new Fruit("Apple"));
 

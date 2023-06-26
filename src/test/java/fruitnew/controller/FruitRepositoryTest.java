@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @DataJpaTest
-public class FruitRepositoryTest {
+class FruitRepositoryTest {
 
     @Autowired
     private TestEntityManager entityManager;
@@ -20,7 +20,7 @@ public class FruitRepositoryTest {
     private FruitRepository fruitRepository;
 
     @Test
-    public void testGetFruitById() {
+    void testGetFruitById() {
         // Create a fruit and save it to the database
         Fruit apple = new Fruit("Apple");
         entityManager.persist(apple);
@@ -35,7 +35,7 @@ public class FruitRepositoryTest {
     }
 
     @Test
-    public void testGetFruitByName() {
+    void testGetFruitByName() {
         // Create a fruit and save it to the database
         Fruit apple = new Fruit("Apple");
         entityManager.persist(apple);
