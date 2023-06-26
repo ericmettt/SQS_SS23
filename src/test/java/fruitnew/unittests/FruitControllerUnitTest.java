@@ -1,5 +1,6 @@
-package fruitnew.controller;
+package fruitnew.unittests;
 
+import fruitnew.controller.FruitController;
 import fruitnew.model.Fruit;
 import fruitnew.service.FruitService;
 import org.junit.jupiter.api.Test;

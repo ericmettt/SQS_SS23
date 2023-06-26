@@ -1,4 +1,4 @@
-package fruitnew.controller;
+package fruitnew.unittests;
 
 import fruitnew.model.Fruit;
 import fruitnew.repository.FruitRepository;

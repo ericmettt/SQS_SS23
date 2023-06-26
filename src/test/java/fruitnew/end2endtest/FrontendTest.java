@@ -31,7 +31,7 @@ public class FrontendTest {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Eric\\Downloads\\chromedriver_win32\\chromedriver.exe");
     }
         @Test
-        public void testvalidTextfield() throws InterruptedException, SQLException {
+        public void testvalidTextfield() throws SQLException {
             // Optional. If not specified, WebDriver searches the PATH for chromedriver.
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--remote-allow-origins=*");

@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2617b5f6-3f12-4c16-8f84-a6e94491847f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/src/components/Appbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/src/components/Fruit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fruitnew/unittests/FruitServiceUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fruitnew/controller/FruitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruitnew/controller/FruitController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fruitnew/service/FruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruitnew/service/FruitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/architecturetest/ArchitectureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/architecturetest/ArchitectureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/controller/FruitControllerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/controller/FruitControllerUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/controller/FruitRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/controller/FruitRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/controller/FruitControllerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/unittests/FruitControllerUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/controller/FruitRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/unittests/FruitRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/end2endtest/FrontendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/end2endtest/FrontendTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +72,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_opened_file_path": "C:/Users/Eric/IdeaProjects/Fruit/Java",
+    "last_opened_file_path": "C:/Users/Eric/Documents/GitHub/SQS_SS23-2/Frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -70,7 +88,12 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.FruitnewApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\Documents\GitHub\SQS_SS23-2\Frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FrontendTest.testvalidTextfield">
     <configuration name="java" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -93,6 +116,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FrontendTest.testvalidTextfield" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.end2endtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew.end2endtest" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.end2endtest.FrontendTest" />
+      <option name="METHOD_NAME" value="testvalidTextfield" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Thirdpartyapitest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruitnew" />
       <extension name="coverage">
@@ -104,22 +143,6 @@
       <option name="PACKAGE_NAME" value="fruitnew.thirdPartyApiTest" />
       <option name="MAIN_CLASS_NAME" value="fruitnew.thirdPartyApiTest.Thirdpartyapitest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Thirdpartyapitest.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fruitnew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fruitnew.thirdPartyApiTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.thirdPartyApiTest" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.thirdPartyApiTest.Thirdpartyapitest" />
-      <option name="METHOD_NAME" value="example" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,20 +186,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.java" />
+      <item itemvalue="JUnit.FrontendTest.testvalidTextfield" />
       <item itemvalue="JUnit.All in Fruitnew" />
       <item itemvalue="JUnit.fruitnew in Fruitnew" />
       <item itemvalue="JUnit.Thirdpartyapitest" />
-      <item itemvalue="JUnit.Thirdpartyapitest.example" />
       <item itemvalue="JUnit.Thirdpartyapitest.testCreateFruit" />
       <item itemvalue="Spring Boot.FruitnewApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FrontendTest.testvalidTextfield" />
         <item itemvalue="JUnit.All in Fruitnew" />
         <item itemvalue="JUnit.fruitnew in Fruitnew" />
         <item itemvalue="JUnit.Thirdpartyapitest" />
         <item itemvalue="JUnit.Thirdpartyapitest.testCreateFruit" />
-        <item itemvalue="JUnit.Thirdpartyapitest.example" />
       </list>
     </recent_temporary>
   </component>
@@ -196,12 +219,18 @@
       <workItem from="1687702006185" duration="1949000" />
       <workItem from="1687790854336" duration="1118000" />
       <workItem from="1687795143917" duration="427000" />
-      <workItem from="1687795591272" duration="3981000" />
+      <workItem from="1687795591272" duration="5695000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Frontend/Frontend/node_modules/tailwindcss/stubs/tailwind.config.js" />
+        <option value="$PROJECT_DIR$/Frontend/Frontend/node_modules/tailwindcss/stubs/tailwind.config.cjs" />
+      </list>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

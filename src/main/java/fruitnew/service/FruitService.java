@@ -28,7 +28,6 @@ public class FruitService {
     public Fruit getFruitInformation(String fruitname) {
         try {
             String path = "/api/fruit/" + fruitname;
-            //String response = this.webClient.get().uri(path, new Object[0]).retrieve().bodyToMono(String.class).block();
             String response = this.webClient.get().uri(path, (Object) new Object[0]).retrieve().bodyToMono(String.class).block();
             Gson gson = new Gson();
             return gson.fromJson(response, Fruit.class);
