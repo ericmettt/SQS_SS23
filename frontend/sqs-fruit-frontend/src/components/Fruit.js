@@ -43,7 +43,7 @@ export default function Fruit() {
         }
       })
       .catch(error => {
-        setError("There is no such frui");
+        setError("There is no such frut");
         setResponse(null);
       });
   };

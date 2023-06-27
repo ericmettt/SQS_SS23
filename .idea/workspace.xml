@@ -6,24 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2617b5f6-3f12-4c16-8f84-a6e94491847f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/src/components/Appbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/src/components/Fruit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/src/components/Fruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/src/components/Fruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +200,7 @@
       <workItem from="1687790854336" duration="1118000" />
       <workItem from="1687795143917" duration="427000" />
       <workItem from="1687795591272" duration="5695000" />
+      <workItem from="1687811749738" duration="1648000" />
     </task>
     <servers />
   </component>
