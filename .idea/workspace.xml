@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2617b5f6-3f12-4c16-8f84-a6e94491847f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/src/components/Fruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/src/components/Fruit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
       <recent name="C:\Users\Eric\Documents\GitHub\SQS_SS23-2\Frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.FruitnewApplication">
+  <component name="RunManager" selected="JUnit.ThirdPartyApiTest">
     <configuration name="java" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -112,6 +109,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThirdPartyApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.thirdpartyapitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew.thirdpartyapitest" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.thirdpartyapitest.ThirdPartyApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Thirdpartyapitest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruitnew" />
       <extension name="coverage">
@@ -123,22 +135,6 @@
       <option name="PACKAGE_NAME" value="fruitnew.thirdPartyApiTest" />
       <option name="MAIN_CLASS_NAME" value="fruitnew.thirdPartyApiTest.Thirdpartyapitest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Thirdpartyapitest.testCreateFruit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fruitnew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fruitnew.thirdPartyApiTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.thirdPartyApiTest" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.thirdPartyApiTest.Thirdpartyapitest" />
-      <option name="METHOD_NAME" value="testCreateFruit" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,20 +162,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.java" />
+      <item itemvalue="JUnit.ThirdPartyApiTest" />
       <item itemvalue="JUnit.FrontendTest.testvalidTextfield" />
       <item itemvalue="JUnit.All in Fruitnew" />
       <item itemvalue="JUnit.fruitnew in Fruitnew" />
       <item itemvalue="JUnit.Thirdpartyapitest" />
-      <item itemvalue="JUnit.Thirdpartyapitest.testCreateFruit" />
       <item itemvalue="Spring Boot.FruitnewApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThirdPartyApiTest" />
         <item itemvalue="JUnit.FrontendTest.testvalidTextfield" />
         <item itemvalue="JUnit.All in Fruitnew" />
         <item itemvalue="JUnit.fruitnew in Fruitnew" />
         <item itemvalue="JUnit.Thirdpartyapitest" />
-        <item itemvalue="JUnit.Thirdpartyapitest.testCreateFruit" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +197,7 @@
       <workItem from="1687795143917" duration="427000" />
       <workItem from="1687795591272" duration="5695000" />
       <workItem from="1687811749738" duration="1648000" />
+      <workItem from="1687875245449" duration="256000" />
     </task>
     <servers />
   </component>
