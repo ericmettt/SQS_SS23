@@ -25,7 +25,7 @@ export default function Fruit() {
         setError(null);
       })
       .then(() =>
-        fetch('http://localhost:8080/', {
+        fetch('http://localhost:8080/getFruit', {
           method: 'GET',
           headers: {
             'Accept': 'application/json, text/plain, */*',

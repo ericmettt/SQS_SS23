@@ -14,9 +14,14 @@ public class FruitController {
     @Autowired
     private FruitService fruitService;
 
-    @GetMapping({"/"})
+    @GetMapping({"/getFruit"})
     public Fruit getFruitInfo() {
         return this.fruitService.getFruitInformation("apple");
+    }
+
+    @GetMapping({"/"})
+    public String Home() {
+    return "Fruit-Searchengine";
     }
 
     @PostMapping({"/addFruit"})
