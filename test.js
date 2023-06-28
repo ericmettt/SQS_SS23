@@ -11,6 +11,13 @@ export const options = {
 };
 
 export default function () {
-  const res = http.get('https://test.k6.io');
+  // Request webpage 1
+  
+  const res = http.get('https://fruityvice.com/api/fruit/apple');
+   // Request webpage 2
+  const res2 = http.get('https://example.com/https://fruityvice.com/api/fruit/melon');
+
+  // Request webpage 3
+  const res3 = http.get('https://fruityvice.com/api/fruit/pear');
   sleep(1);
 }
