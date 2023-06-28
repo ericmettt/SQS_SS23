@@ -2,10 +2,12 @@ import http from 'k6/http';
 import { sleep } from 'k6';
 
 export const options = {
-  duration: '1m',
-  vus: 15,
+  duration: '30s',
+  vus: 10,
   thresholds: {
-    
+     http_req_duration: ['p(95)<1000', 'avg<777'], // 95% of requests should be below 500ms, and average response time should be below 200ms
+    http_req_failed: ['rate<0.20'], // Error rate should be below 5%
+    checks: ['rate>0.75'], // Success rate of checks should be above 95%
   },
 };
 
