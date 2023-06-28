@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/src/components/Fruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/src/components/Fruit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fruitnew/controller/FruitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruitnew/controller/FruitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/performancetest/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/performancetest/k6script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,6 +203,7 @@
       <workItem from="1687875245449" duration="3387000" />
       <workItem from="1687946095880" duration="1981000" />
       <workItem from="1687963374852" duration="2971000" />
+      <workItem from="1687980597800" duration="626000" />
     </task>
     <servers />
   </component>
