@@ -11,7 +11,8 @@ These instructions will give you a copy of the project up and running on
 your local machine for development and testing purposes. See deployment
 for notes on deploying the project on a live system.
 
-[Dokumentation nach arc24](Dokumentation-Arc24)
+[Dokumentation nach arc24](https://github.com/ericmettt/SQS_SS23/wiki/Dokumentation-Arc24)
+
 
 
 ### Prerequisites
