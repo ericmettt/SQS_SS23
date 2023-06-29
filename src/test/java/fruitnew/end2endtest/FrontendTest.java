@@ -15,10 +15,7 @@ import java.sql.*;
 import java.util.Properties;
 
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.core.env.Environment;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.junit.Assert.*;
@@ -109,13 +106,8 @@ public class FrontendTest {
             String sql = "SELECT * FROM fruit_db WHERE name = 'Bread'";
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
-
             // Assert that the query returned at least one result
-            assertTrue(resultSet.next());
-
-            // Assert the values of specific columns in the result set
-            String fruitName = resultSet.getString("name");
-            assertNotEquals("Bread", fruitName);
+            assertFalse(resultSet.next());
 
             // ... perform additional assertions on other columns if necessary ...
 
