@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2617b5f6-3f12-4c16-8f84-a6e94491847f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/sqs-fruit-frontend/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fruitnew/FruitnewApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruitnew/FruitnewApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/unittests/FruitServiceUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/integrationstest/IntegrationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/integrationstest/IntegrationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/integrationstest/thirdpartyapitest/ThirdPartyApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/thirdpartyapitest/ThirdPartyApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,37 +42,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Eric/Documents/GitHub/SQS_SS23-2/src/test/java/fruitnew&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Eric/Documents/GitHub/SQS_SS23-2/Frontend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;c77a9f8cbeaf7e99a573b2f8a9b27f7e&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_directory_selection": "C:/Users/Eric/Documents/GitHub/SQS_SS23-2/src/test/java/fruitnew",
+    "last_opened_file_path": "C:/Users/Eric/Documents/GitHub/SQS_SS23-2/Documents",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "spring.configuration.checksum": "c77a9f8cbeaf7e99a573b2f8a9b27f7e",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\Documents\GitHub\SQS_SS23-2\Documents" />
       <recent name="C:\Users\Eric\Documents\GitHub\SQS_SS23-2\Frontend" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -86,7 +83,7 @@
       <recent name="fruitnew.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.FruitnewApplication">
+  <component name="RunManager" selected="JUnit.IntegrationsTest">
     <configuration name="java" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -112,37 +109,6 @@
       <option name="PACKAGE_NAME" value="fruitnew.unittests" />
       <option name="MAIN_CLASS_NAME" value="fruitnew.unittests.FruitServiceTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FruitServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fruitnew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fruitnew.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.service" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.service.FruitServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FruitServiceTest.saveDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fruitnew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fruitnew.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.service" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.service.FruitServiceTest" />
-      <option name="METHOD_NAME" value="saveDetails" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,6 +145,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntegrationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.integrationstest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew.integrationstest" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.integrationstest.IntegrationsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationsTest.testCreateFruit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.integrationstest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew.integrationstest" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.integrationstest.IntegrationsTest" />
+      <option name="METHOD_NAME" value="testCreateFruit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FruitnewApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Fruitnew" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="fruitnew.FruitnewApplication" />
@@ -188,20 +185,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.java" />
-      <item itemvalue="JUnit.FruitServiceTest" />
+      <item itemvalue="JUnit.IntegrationsTest" />
+      <item itemvalue="JUnit.IntegrationsTest.testCreateFruit" />
       <item itemvalue="JUnit.FruitServiceTest (1)" />
-      <item itemvalue="JUnit.FruitServiceTest.saveDetails" />
       <item itemvalue="JUnit.FruitServiceTest.testGetFruitInformation" />
       <item itemvalue="JUnit.FruitServiceTest.testSaveDetails" />
       <item itemvalue="Spring Boot.FruitnewApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationsTest" />
+        <item itemvalue="JUnit.IntegrationsTest.testCreateFruit" />
         <item itemvalue="JUnit.FruitServiceTest.testSaveDetails" />
         <item itemvalue="JUnit.FruitServiceTest (1)" />
         <item itemvalue="JUnit.FruitServiceTest.testGetFruitInformation" />
-        <item itemvalue="JUnit.FruitServiceTest" />
-        <item itemvalue="JUnit.FruitServiceTest.saveDetails" />
       </list>
     </recent_temporary>
   </component>

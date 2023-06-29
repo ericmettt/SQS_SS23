@@ -31,7 +31,7 @@ class IntegrationsTest {
     }
 
     @Test
-    void testGetUser() {
+    void testGetFruit() {
         // Set base URL and port
         RestAssured.baseURI = "http://localhost";
         RestAssured.port = 8080;

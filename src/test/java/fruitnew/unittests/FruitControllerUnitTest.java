@@ -30,7 +30,6 @@ class FruitControllerUnitTest {
     void addFruitTest(){
 
         Mono<Fruit> fruitMono = Mono.just(new Fruit("Apple"));
-        //TODO WTF IS BLOCK
         when(service.saveDetails(fruitMono.block())).thenReturn(fruitMono.block());
 
         webTestClient.post().uri("/addFruit").

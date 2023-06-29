@@ -20,9 +20,9 @@ public class FruitnewApplication {
 
 	@Bean
 	public WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> contentTypeOptionsCustomizer() {
-		return serverFactory -> serverFactory.addInitializers(servletContext -> {
-			servletContext.setInitParameter("X-Content-Type-Options", "nosniff");
-		});
+		return serverFactory -> serverFactory.addInitializers(servletContext ->
+			servletContext.setInitParameter("X-Content-Type-Options", "nosniff"));
+
 	}
 
 }
