@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2617b5f6-3f12-4c16-8f84-a6e94491847f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/unittests/FruitControllerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/unittests/FruitControllerUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/unittests/FruitServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/unittests/FruitServiceUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <recent name="C:\Users\Eric\Documents\GitHub\SQS_SS23-2\Frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FruitControllerUnitTest">
+  <component name="RunManager" selected="JUnit.FruitServiceTest.saveDetails">
     <configuration name="java" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -80,21 +81,6 @@
           <option name="ENABLED" value="false" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="End2EndTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fruitnew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fruitnew.end2endtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.end2endtest" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.end2endtest.End2EndTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FruitControllerUnitTest.testIndexPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FruitServiceTest.saveDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruitnew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fruitnew.unittests.*" />
+          <option name="PATTERN" value="fruitnew.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.unittests" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.unittests.FruitControllerUnitTest" />
-      <option name="METHOD_NAME" value="testIndexPage" />
+      <option name="PACKAGE_NAME" value="fruitnew.service" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.service.FruitServiceTest" />
+      <option name="METHOD_NAME" value="saveDetails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,6 +147,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FruitServiceUnitTest.testSaveDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew.unittests" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.unittests.FruitServiceUnitTest" />
+      <option name="METHOD_NAME" value="testSaveDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FruitnewApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Fruitnew" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="fruitnew.FruitnewApplication" />
@@ -170,20 +172,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.java" />
-      <item itemvalue="JUnit.End2EndTest" />
       <item itemvalue="JUnit.FruitControllerUnitTest" />
-      <item itemvalue="JUnit.FruitControllerUnitTest.testIndexPage" />
+      <item itemvalue="JUnit.FruitServiceTest.saveDetails" />
       <item itemvalue="JUnit.FruitServiceUnitTest" />
       <item itemvalue="JUnit.FruitServiceUnitTest.testGetFruitInformation" />
+      <item itemvalue="JUnit.FruitServiceUnitTest.testSaveDetails" />
       <item itemvalue="Spring Boot.FruitnewApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FruitServiceTest.saveDetails" />
+        <item itemvalue="JUnit.FruitServiceUnitTest.testSaveDetails" />
         <item itemvalue="JUnit.FruitControllerUnitTest" />
         <item itemvalue="JUnit.FruitServiceUnitTest" />
         <item itemvalue="JUnit.FruitServiceUnitTest.testGetFruitInformation" />
-        <item itemvalue="JUnit.FruitControllerUnitTest.testIndexPage" />
-        <item itemvalue="JUnit.End2EndTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +211,7 @@
       <workItem from="1687946095880" duration="1981000" />
       <workItem from="1687963374852" duration="2971000" />
       <workItem from="1687980597800" duration="678000" />
-      <workItem from="1688027549199" duration="7220000" />
+      <workItem from="1688027549199" duration="7880000" />
     </task>
     <servers />
   </component>
