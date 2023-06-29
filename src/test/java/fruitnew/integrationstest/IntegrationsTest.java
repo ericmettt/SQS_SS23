@@ -3,7 +3,9 @@ import org.junit.jupiter.api.Test;
 import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-//Integration Test via Rest Assured
+
+// This class contains integration tests using RestAssured.
+// It sends HTTP requests to the specified endpoints and validates the responses.
 class IntegrationsTest {
 
     @Test

@@ -19,6 +19,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.junit.Assert.*;
+// This class contains Selenium end-to-end tests to validate the frontend behavior of the application.
+// It utilizes the Selenium WebDriver to interact with the web interface and perform user actions.
+// The tests validate the behavior of the text field, submit button, and database connectivity.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class FrontendTest {

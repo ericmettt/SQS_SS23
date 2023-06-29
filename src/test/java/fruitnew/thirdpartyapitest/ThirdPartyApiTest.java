@@ -1,19 +1,20 @@
 package fruitnew.thirdpartyapitest;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
-import org.junit.After;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
-import java.io.IOException;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig;
 
-//Test https://fruityvice.com/api/fruit/apple
+//website https://fruityvice.com/api/fruit/apple
+// This class contains tests for a third-party API using WireMock.
+// It starts a WireMock server and configures it to respond to specific API requests.
+// The tests validate the behavior of the API response using WebTestClient.
 class ThirdPartyApiTest {
 
     int wireMockPort = 7777;
