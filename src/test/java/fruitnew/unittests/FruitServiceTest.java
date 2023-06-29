@@ -21,6 +21,7 @@ class FruitServiceTest {
     @Autowired
     private TestEntityManager entityManager;
     
+
     @Test
     void testGetFruitInformation() {
         // Arrange

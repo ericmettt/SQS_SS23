@@ -1,4 +1,4 @@
-package fruitnew.thirdpartyapitest;
+package fruitnew.integrationstest.thirdpartyapitest;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import org.junit.jupiter.api.AfterEach;
