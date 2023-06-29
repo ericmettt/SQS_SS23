@@ -14,7 +14,7 @@ public class FruitController {
     @Autowired
     private FruitService fruitService;
 
-    @GetMapping({"/getFruit"})
+    @GetMapping({"/getApple"})
     public Fruit getFruitInfo() {
         return this.fruitService.getFruitInformation("apple");
     }

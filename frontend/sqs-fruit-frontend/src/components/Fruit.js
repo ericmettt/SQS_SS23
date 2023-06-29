@@ -12,41 +12,38 @@ export default function Fruit() {
     e.preventDefault();
 
     fetch('http://localhost:8080/addFruit', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json, text/plain, */*',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ name })
-    })
-      .then(res => res.json())
-      .then(res => {
-        setResponse(res);
-        setError(null);
-      })
-      .then(() =>
-        fetch('http://localhost:8080/getFruit', {
-          method: 'GET',
-          headers: {
-            'Accept': 'application/json, text/plain, */*',
-            'Content-Type': 'application/json'
-          },
-        })
-      )
-      .then(res => res.json())
-      .then(res => {
-        if (res.length === 0) {
-          setError('There is no such fruit');
-        } else {
-          console.log(res);
-          // Further processing with the GET response if needed
-        }
-      })
-      .catch(error => {
-        setError("There is no such frut");
-        setResponse(null);
-      });
-  };
+  method: 'POST',
+  headers: {
+    'Accept': 'application/json, text/plain, */*',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({ name })
+})
+  .then(res => {
+    if (!res.ok) {
+      throw new Error('Request failed with status ' + res.status);
+    }
+    return res.json();
+  })
+  .then(res => {
+    // Check if the response indicates an error
+    if (res.error) {
+      // Handle the error response
+      setError(res.error);
+      setResponse(null);
+    } else {
+      // Process the successful response
+      setResponse(res);
+      setError(null);
+    }
+  })
+  .catch(error => {
+    // Handle network errors or other exceptions
+    console.error(error);
+    setError('Given Fruit does not exist in the database');
+    setResponse(null);
+  });
+  }
 
   return (
     <Container>
