@@ -24,7 +24,7 @@ import static org.junit.Assert.*;
 // The tests validate the behavior of the text field, submit button, and database connectivity.
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class FrontendTest {
+public class End2EndTest {
 
     @Before
     public void setupWebdriver(){

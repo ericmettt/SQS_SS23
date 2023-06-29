@@ -38,14 +38,32 @@ class FruitControllerUnitTest {
                 .exchange()
                 .expectStatus().isOk();
     }
+
     @Test
-    void getFruitInfoTest(){
+    void indexPageTest() {
+        webTestClient.get().uri("/")
+                .exchange()
+                .expectStatus().isOk();
+    }
+
+    @Test
+    void getAppleTest() {
         FruitService fruitService = mock(FruitService.class);
         when(fruitService.getFruitInformation("Apple")).thenReturn(new Fruit("Apple"));
 
         Fruit apple = new Fruit("Apple");
 
         assertEquals(apple.getName(),fruitService.getFruitInformation("Apple").getName());
+    }
+
+    @Test
+    void getFruitInfoTest(){
+        FruitService fruitService = mock(FruitService.class);
+        when(fruitService.getFruitInformation("Melon")).thenReturn(new Fruit("Melon"));
+
+        Fruit apple = new Fruit("Melon");
+
+        assertEquals(apple.getName(),fruitService.getFruitInformation("Melon").getName());
     }
 
 }

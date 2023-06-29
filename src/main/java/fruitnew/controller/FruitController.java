@@ -20,7 +20,7 @@ public class FruitController {
     }
 
     @GetMapping({"/"})
-    public String Home() {
+    public String home() {
     return "Fruit-Searchengine";
     }
 
