@@ -45,29 +45,6 @@ class FruitServiceTest {
     }
 
     @Test
-    public void testGetFruitInformation_ErrorHandling() {
-        MockitoAnnotations.openMocks(this);
-
-        Logger logger = mock(Logger.class);
-
-        FruitService fruitService = mock(FruitService.class);
-
-
-        when(fruitService.getFruitInformation("Melon")).thenThrow(new RuntimeException("Unable to retrieve fruit information. Please try again later."));
-
-
-        Assertions.assertThrows(RuntimeException.class, () -> {
-            fruitService.getFruitInformation("Melon");
-        });
-
-
-        doAnswer((Answer<Void>) invocation -> null).when(logger).severe(anyString());
-
-    }
-
-
-
-    @Test
     void testSaveDetails() {
         // Arrange
         Fruit apple = new Fruit("Apple");
