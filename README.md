@@ -38,6 +38,8 @@ SQS-Demoprojekt das Früchte Infos mithilfe der https://fruityvice.com/ API wied
 2. Create a new database with the desired name: `CREATE DATABASE your-database-name;`
 3. Update the database connection details in the backend's `application.properties`
 
+The currently used application.properties username and password are for my local development database
+
 ## Project Structure
 
 Describe the project structure here. For example:
