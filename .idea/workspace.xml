@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2617b5f6-3f12-4c16-8f84-a6e94491847f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fruitnew/service/FruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruitnew/service/FruitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fruitnew/unittests/FruitServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fruitnew/unittests/FruitServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,7 @@
       <recent name="fruitnew.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationsTest.testGetFruit">
+  <component name="RunManager" selected="JUnit.FruitServiceTest">
     <configuration name="java" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -95,7 +98,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FruitServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FruitControllerUnitTest.addFruitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruitnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruitnew.unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fruitnew.unittests" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.unittests.FruitControllerUnitTest" />
+      <option name="METHOD_NAME" value="addFruitTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FruitServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruitnew" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FruitServiceTest.testSaveDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FruitServiceTest.testGetFruitInformation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruitnew" />
       <extension name="coverage">
         <pattern>
@@ -120,54 +139,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="fruitnew.unittests" />
       <option name="MAIN_CLASS_NAME" value="fruitnew.unittests.FruitServiceTest" />
-      <option name="METHOD_NAME" value="testSaveDetails" />
+      <option name="METHOD_NAME" value="testGetFruitInformation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FruitServiceTest.testGetFruitInformation_ErrorHandling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruitnew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fruitnew.integrationstest.*" />
+          <option name="PATTERN" value="fruitnew.unittests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.integrationstest" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.integrationstest.IntegrationsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntegrationsTest.testCreateFruit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fruitnew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fruitnew.integrationstest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.integrationstest" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.integrationstest.IntegrationsTest" />
-      <option name="METHOD_NAME" value="testCreateFruit" />
+      <option name="PACKAGE_NAME" value="fruitnew.unittests" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.unittests.FruitServiceTest" />
+      <option name="METHOD_NAME" value="testGetFruitInformation_ErrorHandling" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationsTest.testGetFruit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FruitServiceTest.testGetFruitInformation_InternalServerError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruitnew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fruitnew.integrationstest.*" />
+          <option name="PATTERN" value="fruitnew.unittests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fruitnew.integrationstest" />
-      <option name="MAIN_CLASS_NAME" value="fruitnew.integrationstest.IntegrationsTest" />
-      <option name="METHOD_NAME" value="testGetFruit" />
+      <option name="PACKAGE_NAME" value="fruitnew.unittests" />
+      <option name="MAIN_CLASS_NAME" value="fruitnew.unittests.FruitServiceTest" />
+      <option name="METHOD_NAME" value="testGetFruitInformation_InternalServerError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,20 +186,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.java" />
-      <item itemvalue="JUnit.IntegrationsTest.testGetFruit" />
-      <item itemvalue="JUnit.IntegrationsTest" />
-      <item itemvalue="JUnit.IntegrationsTest.testCreateFruit" />
-      <item itemvalue="JUnit.FruitServiceTest (1)" />
-      <item itemvalue="JUnit.FruitServiceTest.testSaveDetails" />
+      <item itemvalue="JUnit.FruitControllerUnitTest.addFruitTest" />
+      <item itemvalue="JUnit.FruitServiceTest" />
+      <item itemvalue="JUnit.FruitServiceTest.testGetFruitInformation_ErrorHandling" />
+      <item itemvalue="JUnit.FruitServiceTest.testGetFruitInformation_InternalServerError" />
+      <item itemvalue="JUnit.FruitServiceTest.testGetFruitInformation" />
       <item itemvalue="Spring Boot.FruitnewApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IntegrationsTest.testGetFruit" />
-        <item itemvalue="JUnit.IntegrationsTest" />
-        <item itemvalue="JUnit.IntegrationsTest.testCreateFruit" />
-        <item itemvalue="JUnit.FruitServiceTest.testSaveDetails" />
-        <item itemvalue="JUnit.FruitServiceTest (1)" />
+        <item itemvalue="JUnit.FruitServiceTest" />
+        <item itemvalue="JUnit.FruitServiceTest.testGetFruitInformation_ErrorHandling" />
+        <item itemvalue="JUnit.FruitServiceTest.testGetFruitInformation" />
+        <item itemvalue="JUnit.FruitServiceTest.testGetFruitInformation_InternalServerError" />
+        <item itemvalue="JUnit.FruitControllerUnitTest.addFruitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +226,7 @@
       <workItem from="1687963374852" duration="2971000" />
       <workItem from="1687980597800" duration="678000" />
       <workItem from="1688027549199" duration="10026000" />
-      <workItem from="1688138932134" duration="3057000" />
+      <workItem from="1688138932134" duration="5519000" />
     </task>
     <servers />
   </component>

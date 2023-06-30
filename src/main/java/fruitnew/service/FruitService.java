@@ -39,6 +39,7 @@ public class FruitService {
         }
     }
 
+
     public Fruit saveDetails(Fruit fruit) {
         return this.fruitRepository.save(fruit);
     }
