@@ -1,4 +1,5 @@
 package fruitnew.integrationstest;
+import io.restassured.parsing.Parser;
 import org.junit.jupiter.api.Test;
 import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;
@@ -6,6 +7,7 @@ import static org.hamcrest.Matchers.*;
 
 // This class contains integration tests using RestAssured.
 // It sends HTTP requests to the specified endpoints and validates the responses.
+//The Database and the Springboot service must be running for these Tests to work
 class IntegrationsTest {
 
     @Test
@@ -33,10 +35,10 @@ class IntegrationsTest {
     @Test
     void testGetFruit() {
         // Set base URL and port
-        RestAssured.baseURI = "http://localhost";
+        RestAssured.baseURI = "http://localhost/getApple";
         RestAssured.port = 8080;
 
-        // Send GET request to "/users/1" endpoint and validate response
+        // Send GET request to "/Apple" endpoint and validate response
         given()
                 .contentType("application/json")
                 .when()
