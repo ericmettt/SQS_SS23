@@ -40,8 +40,8 @@ SQS-Demoprojekt das Früchte Infos mithilfe der https://fruityvice.com/ API wied
 
 The currently used application.properties username and password are for my local development database
 
-## Project Structure
 
-Describe the project structure here. For example:
+
+
 
 
