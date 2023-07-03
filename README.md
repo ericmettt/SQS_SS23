@@ -1,8 +1,8 @@
 # Frucht-Suchmaschine
 
-SQS-Demoprojekt das Früchte Infos mithilfe der https://fruityvice.com/ API wiedergibt
+SQS-Demoprojekt that calls the https://fruityvice.com/ API for various fruit information
 
-[ARC24 Dokumentation](https://github.com/ericmettt/SQS_SS23/wiki/Dokumentation-Arc24)
+[ARC24 Documentation](https://github.com/ericmettt/SQS_SS23/wiki/Dokumentation-Arc24)
 
 ## Technologies Used
 
